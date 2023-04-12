@@ -1,15 +1,15 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi 
-// Descrição   : Para...Faca (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// Professor   : Carlos
+// DescriÃ§Ã£o   : Para...Faca (funÃ§Ã£o)
+// Autor(a)    : Lucas Rodrigues Barauna
 // Data atual  : 11/04/2023
 Var
-// Seção de Declarações das variáveis 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis 
 i: inteiro
 j: inteiro
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc... 
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc... 
 para i de 1 ate 10 faca
 escreval(i)
 fimpara
