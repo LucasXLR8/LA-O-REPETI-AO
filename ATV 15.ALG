@@ -1,32 +1,30 @@
 Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação]
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Carlos
-// Descrição   : Algoritmo que leia um vetor de 10 numeros reais que mostre a quantidade de negativos e a soma de positivos (função)
+// DescriÃ§Ã£o   : Algoritmo que leia um vetor de 10 numeros reais que mostre a quantidade de negativos e a soma de positivos (funÃ§Ã£o)
 // Autor(a)    : Lucas Rodrigues Barauna(a)
 // Data atual  : 25/04/2023
 Var
-   // Seção de Declarações das variáveis
-   numero: vetor[1..10] de real
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
+   v: vetor [1..10] de inteiro
+   neg,soma:real
    i: inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
    para i de 1 ate 10 faca
-      escreva("Digite o ", i, " numero:")
-      leia(numero[i])
-
-      contadorN <- contadorN + 1
-      negativo <- negativo + contadorN
-      
-      contadorP <- contadorP + 1
-      positivo <- positivo + contadorP
-      
-      
-      
-   fimpara
+       escreval("Me diga um numero")
+       leia(v[i])
    
-   para i de 1 ate 10 faca
+       se v[i] < neg entao
+           neg <- neg + 1
+       fimse
 
+       se v[i] >= 0 entao
+           soma <- soma + v[i]
+       fimse
    fimpara
 
+escreval("Quantidade de numeros negativos:",neg)
+escreval("Soma dos nÃºmeros positivos: ",soma)
 Fimalgoritmo
